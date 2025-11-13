@@ -1,6 +1,6 @@
 # 🌦️ Weather Forecast Dashboard (Fundamentals of ML Project)
 
-### 📚 Mini Project – Experiment 10  
+### 📚 Weather Prediction (frontend + TTS + ML)  
 **By:** Mihir Kulkarni  
 **Technologies Used:** Python, Flask, scikit-learn, Pandas, HTML, CSS, JavaScript, Chart.js  
 **Dataset:** [Weather Prediction Dataset – Kaggle](https://www.kaggle.com/datasets/muthuj7/weather-dataset)
@@ -48,32 +48,20 @@ The results are displayed on a **web-based dashboard** built with Flask and Char
 
 ## 🧩 Project Structure
 
-weather-forecast-dashboard/
-├── app.py # Flask backend server
-
-├── train_model.py # Data cleaning, clustering & regression model training
-
-├── requirements.txt # Required Python packages
-
-├── data/
-
-│ └── weather.csv # Dataset (download from Kaggle)
-
-├── models/
-
-│ ├── scaler.joblib
-
-│ ├── kmeans.joblib
-
-│ └── rf_regressor.joblib
-
-└── static/
-
-├── index.html # Web dashboard
-
-├── style.css # Styling
-
-└── app.js # Frontend logic (API calls + charts)
+weather-forecast-dashboard/   
+├── app.py # Flask backend server   
+├── train_model.py # Data cleaning, clustering & regression model training   
+├── requirements.txt # Required Python packages   
+├── data/   
+│ └── weather.csv # Dataset (download from Kaggle)   
+├── models/   
+│ ├── scaler.joblib   
+│ ├── kmeans.joblib   
+│ └── rf_regressor.joblib   
+└── static/   
+├── index.html # Web dashboard   
+├── style.css # Styling   
+└── app.js # Frontend logic (API calls + charts)   
 
 
 
